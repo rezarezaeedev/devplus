@@ -1,4 +1,4 @@
-#!/home/reza/Desktop/devplus/.venv/bin/python
+#!/home/reza/Desktop/devplus/django-devplus/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
