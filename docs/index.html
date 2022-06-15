@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devplus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: Ubuntu;
+        }
+    </style>
+    <script>    
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                myblack: '#343A40',
+                mywhite: '#e1e1e1',
+              }
+            },
+          }
+        }
+      </script>
+
+</head>
+<body class=" bg-mywhite">
+    <header class="text-center text-myblack  bg-gradient-to-r from-cyan-500 to-green-500 py-28 mb-12 shadow-sm shadow-green-700 ">
+        <div class="w-3/12 divide-y-2 divide-myblack mx-auto space-y-3 " > 
+            <h1 class="text-6xl font-bold  hover:animate-bounce ease-in-out transition-all delay-300 duration-500">Devplus</h1>
+            <h2 class='text-2xl'>Reza Rezaee</h2>
+        </div>
+    </header>
+    <main class="container w-8/12 mx-auto text-6xl py-5 ">
+        <div class='space-y-36 divide-dotted divide-y-2 divide-myblack'> <!--POst list-->
+            <div class="mx-auto mb-20"> <!--Post Item-->
+                <img class="w-7/12 h-96 mx-auto mt-5 mb-10 rounded-lg  object-cover shadow-sm shadow-myblack"  src="http://127.0.0.1:8000/media/media/posts/Why-Django-Framework-is-Best-For-Web-Development.png" alt="">
+                <div class="text-lg w-8/12 mx-auto ">
+                    <h2>Best framework</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium beatae nostrum minima deleniti sequi eaque culpa, expedita fugiat odio iusto aspernatur rem fuga laudantium consequuntur eius est consequatur debitis doloribus distinctio repudiandae. At commodi a cumque quis odio vitae quidem nulla sed maxime asperiores, sint illum autem excepturi deleniti?</p>
+                    <h4 class="text-base text-myblack text-lg opacity-70 py-1"><em>Reza Rezaee</em></h4>   
+                </div>
+                <div class="w-8/12 mx-auto my-2">
+                    <button type="submit" class="font-semibold rounded-sm bg-gradient-to-r from-blue-500 to-blue-400 text-lg text-myblack px-3 py-2 text-center">More ...</button>            
+                </div>            
+            </div>
+    
+            <div class="mx-auto mb-20"> <!--Post Item-->
+                <img class="w-7/12 h-96 mx-auto mt-5 mb-10 rounded-lg  object-cover shadow-sm shadow-myblack"  src="http://127.0.0.1:8000/media/media/posts/Why-Django-Framework-is-Best-For-Web-Development.png" alt="">
+                <div class="text-lg w-8/12 mx-auto ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium beatae nostrum minima deleniti sequi eaque culpa, expedita fugiat odio iusto aspernatur rem fuga laudantium consequuntur eius est consequatur debitis doloribus distinctio repudiandae. At commodi a cumque quis odio vitae quidem nulla sed maxime asperiores, sint illum autem excepturi deleniti?</p>
+                    <h4 class="text-base text-myblack text-lg opacity-70 py-1"><em>Reza Rezaee</em></h4>   
+                </div>
+                <div class="w-8/12 mx-auto my-2">
+                    <button type="submit" class="font-semibold rounded-sm bg-gradient-to-r from-blue-500 to-blue-400 text-lg text-myblack px-3 py-2 text-center">More ...</button>            
+                </div>            
+            </div>
+
+            <div class="mx-auto mb-20"> <!--Post Item-->
+                <img class="w-7/12 h-96 mx-auto mt-5 mb-10 rounded-lg  object-cover shadow-sm shadow-myblack"  src="http://127.0.0.1:8000/media/media/posts/Why-Django-Framework-is-Best-For-Web-Development.png" alt="">
+                <div class="text-lg w-8/12 mx-auto ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium beatae nostrum minima deleniti sequi eaque culpa, expedita fugiat odio iusto aspernatur rem fuga laudantium consequuntur eius est consequatur debitis doloribus distinctio repudiandae. At commodi a cumque quis odio vitae quidem nulla sed maxime asperiores, sint illum autem excepturi deleniti?</p>
+                    <h4 class="text-base text-myblack text-lg opacity-70 py-1"><em>Reza Rezaee</em></h4>   
+                </div>
+                <div class="w-8/12 mx-auto my-2">
+                    <button type="submit" class="font-semibold rounded-sm bg-gradient-to-r from-blue-500 to-blue-400 text-lg text-myblack px-3 py-2 text-center">More ...</button>            
+                </div>            
+            </div>
+
+            <div class="mx-auto mb-20"> <!--Post Item-->
+                <img class="w-7/12 h-96 mx-auto mt-5 mb-10 rounded-lg  object-cover shadow-sm shadow-myblack"  src="http://127.0.0.1:8000/media/media/posts/Why-Django-Framework-is-Best-For-Web-Development.png" alt="">
+                <div class="text-lg w-8/12 mx-auto ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium beatae nostrum minima deleniti sequi eaque culpa, expedita fugiat odio iusto aspernatur rem fuga laudantium consequuntur eius est consequatur debitis doloribus distinctio repudiandae. At commodi a cumque quis odio vitae quidem nulla sed maxime asperiores, sint illum autem excepturi deleniti?</p>
+                    <h4 class="text-base text-myblack text-lg opacity-70 py-1"><em>Reza Rezaee</em></h4>   
+                </div>
+                <div class="w-8/12 mx-auto my-2">
+                    <button type="submit" class="font-semibold rounded-sm bg-gradient-to-r from-blue-500 to-blue-400 text-lg text-myblack px-3 py-2 text-center">More ...</button>            
+                </div>            
+            </div>
+
+            <div class="mx-auto mb-20"> <!--Post Item-->
+                <img class="w-7/12 h-96 mx-auto mt-5 mb-10 rounded-lg  object-cover shadow-sm shadow-myblack"  src="http://127.0.0.1:8000/media/media/posts/Why-Django-Framework-is-Best-For-Web-Development.png" alt="">
+                <div class="text-lg w-8/12 mx-auto ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium beatae nostrum minima deleniti sequi eaque culpa, expedita fugiat odio iusto aspernatur rem fuga laudantium consequuntur eius est consequatur debitis doloribus distinctio repudiandae. At commodi a cumque quis odio vitae quidem nulla sed maxime asperiores, sint illum autem excepturi deleniti?</p>
+                    <h4 class="text-base text-myblack text-lg opacity-70 py-1"><em>Reza Rezaee</em></h4>   
+                </div>
+                <div class="w-8/12 mx-auto my-2">
+                    <button type="submit" class="font-semibold rounded-sm bg-gradient-to-r from-blue-500 to-blue-400 text-lg text-myblack px-3 py-2 text-center">More ...</button>            
+                </div>            
+            </div>
+        </div>
+    </main>
+
+    <footer class="relative opacity-90 text-lg   w-full mt-32 text-center text-myblack  bg-gradient-to-r from-cyan-500 to-green-500 shadow-sm shadow-green-700 flex flex-col justify-center items-center space-y-3 ">
+        <p class="p-2">Builded by TailwindCss, Vuejs and Django-restframework <span class="text-sm">For deplus instagram</span></p>
+        <p class="absolute right-5 bottom-3 text-xs">&copy;Free 4 copy</p>
+    </footer>
+
+</body>
+</html>
